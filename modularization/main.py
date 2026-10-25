@@ -1,0 +1,1 @@
+import modularization.magazine.Product
