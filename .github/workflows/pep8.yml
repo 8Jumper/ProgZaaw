@@ -23,5 +23,5 @@ jobs:
       - name: Install pycodestyle
         run: python -m pip install pycodestyle
 
-      - name: Run autopep8
-        run: python -m autopep8 --in-place --recursive --exclude=.git,.venv,venv .
+      - name: Run pycodestyle
+        run: python -m pycodestyle --exclude=.git,.venv,venv .
