@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self, name:str, marks:[int]):
+    def __init__(self, name: str, marks: [int]):
         self.name = name
         self.marks = marks
 
@@ -15,7 +15,8 @@ class Student:
         else:
             return False
 
-Krycha = Student("Krycha", [2,3,1,4,3,5,5])
-Divix = Student("Divix", [1,2,3,1,])
+
+Krycha = Student("Krycha", [2, 3, 1, 4, 3, 5, 5])
+Divix = Student("Divix", [1, 2, 3, 1])
 
 print(Krycha.is_passed(), Divix.is_passed())

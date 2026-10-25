@@ -4,3 +4,4 @@ def checkThree(x:int, y:int, z:int) -> bool:
         return True
     else:
         return False
+

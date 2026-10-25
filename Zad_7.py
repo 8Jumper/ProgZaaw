@@ -23,6 +23,7 @@ class Browar:
         def __str__(self):
             return f"{self.name}, {self.brewery_type}, {self.city}, {self.street}"
 
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--city", type=str, default=None)
 args = parser.parse_args()

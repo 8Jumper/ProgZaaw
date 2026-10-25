@@ -8,4 +8,6 @@ def checkParzysta(x:int):
     else:
         print("Liczba nieparzysta")
 
-checkParzysta(67)
+
+checkParzysta(67
+              )

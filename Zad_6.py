@@ -9,6 +9,7 @@ def Zad6(x: list, y: list) -> list:
         k+=1
     return y
 
+
 x = [1,1,2,3]
 y = [1,4,5]
 
