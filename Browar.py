@@ -22,4 +22,5 @@ class Browar:
         self.street = street
 
     def __str__(self):
-        return f"Name:{self.name}, Brewery type:{self.brewery_type},City: {self.city}, Street{self.street}"
+        return (f"Name:{self.name}, Brewery type:{self.brewery_type},"
+                f"City: {self.city}, Street{self.street}")
