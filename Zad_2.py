@@ -1,5 +1,5 @@
-def mnogo(x:int, y:int) -> int:
+def mnogo(x: int, y: int) -> int:
     return x*y
 
 
-print(mnogo(6,7))
+print(mnogo(6, 7))

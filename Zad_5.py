@@ -5,7 +5,7 @@ def zad5(x: list, y: int) -> bool:
     return False
 
 
-lista = [1,2,3,4]
+lista = [1, 2, 3, 4]
 igrek = 4
 
 print(zad5(lista, igrek))
